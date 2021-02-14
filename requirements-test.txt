@@ -291,7 +291,7 @@ pyhamcrest==2.0.2
     # via
     #   -r requirements.txt
     #   twisted
-pymongo==3.10.1
+pymongo==3.11.3
     # via
     #   -r requirements.txt
     #   mongodb-migrations
