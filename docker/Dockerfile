@@ -1,4 +1,4 @@
-FROM python:3.7.2-alpine3.8
+FROM python:3.8.8-alpine3.13
 
 RUN python -m pip install --upgrade pip
 RUN apk add --no-cache \
@@ -18,6 +18,7 @@ RUN apk add --no-cache \
     gcc \
     python3-dev \
     musl-dev \
+    cargo \
     bash
 
 WORKDIR /xtcryptosignals
