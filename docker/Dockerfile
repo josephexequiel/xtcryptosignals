@@ -1,6 +1,6 @@
 FROM python:3.8.8-alpine3.13
 
-RUN python -m pip install --upgrade pip
+RUN python -m pip install --upgrade pip setuptools setuptools_rust
 RUN apk add --no-cache \
     alpine-sdk \
     zlib \
